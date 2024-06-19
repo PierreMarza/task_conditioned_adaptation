@@ -9,7 +9,7 @@
  <sup>1</sup>INSA Lyon, <sup>2</sup>Université Lyon 1, <sup>3</sup>Naver Labs Europe <br>
 in CVPR 2024
 
-<img src='images/teaser.png' width="40%" height="40%"/>
+<img src='images/teaser.png' width="50%" height="50%"/>
 
 ## Setup
 Some parts of the code are adapted from https://github.com/facebookresearch/eai-vc. We thus follow some of the instructions from https://github.com/facebookresearch/eai-vc/blob/main/INSTALLATION.md to install the required dependencies. Commands to run are listed below,
