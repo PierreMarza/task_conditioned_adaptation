@@ -197,7 +197,7 @@ if __name__ == "__main__":
         writer.add_scalar("Loss/train", running_loss / (mb_idx + 1), epoch + 1)
 
         # Logging average per-task loss for the epoch
-        for env in tqdm(ENV_TO_ID.keys()):
+        for env in tqdm(list(ENV_TO_ID.keys())[:args.ntasks]):
             env_id = ENV_TO_ID[env]
             writer.add_scalar(
                 f"Loss/train_policy_{env}",
